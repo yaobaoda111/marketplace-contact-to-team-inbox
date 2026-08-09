@@ -1,0 +1,16 @@
+{
+  "name": "marketplace-contact-to-team-inbox",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "send:sample": "tsx scripts/send_sample.ts",
+    "test": "tsx --test test/marketplace_contact.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
